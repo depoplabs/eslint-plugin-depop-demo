@@ -3,6 +3,5 @@ module.exports = {
   testPathIgnorePatterns: ["<rootDir>/node_modules/"],
   transform: {
     "\\.(ts)x?$": "ts-jest",
-    "\\.(js)x?$": "babel-jest",
   },
 };
