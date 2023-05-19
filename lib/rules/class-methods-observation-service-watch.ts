@@ -2,7 +2,7 @@ import { ESLintUtils, TSESTree } from "@typescript-eslint/utils";
 
 const createRule = ESLintUtils.RuleCreator(
   (name) =>
-    `https://github.com/depop/eslint-plugin-depop-demo/blob/master/docs/rules/${name}.md`
+    `https://github.com/depoplabs/eslint-plugin-depop-demo/blob/master/docs/rules/${name}.md`
 );
 
 export const rule = createRule({
